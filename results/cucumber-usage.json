@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^I should be in Quotes home page$",
+    "steps": [
+      {
+        "name": "I should be in Quotes home page",
+        "aggregatedDurations": {
+          "average": 0.053236201,
+          "median": 0.053236201
+        },
+        "durations": [
+          {
+            "duration": 0.053236201,
+            "location": "coop.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am in Coop money home page$",
+    "steps": [
+      {
+        "name": "I am in Coop money home page",
+        "aggregatedDurations": {
+          "average": 3.306850293,
+          "median": 3.306850293
+        },
+        "durations": [
+          {
+            "duration": 3.306850293,
+            "location": "coop.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click Quotes link$",
+    "steps": [
+      {
+        "name": "I click Quotes link",
+        "aggregatedDurations": {
+          "average": 9.092742426,
+          "median": 9.092742426
+        },
+        "durations": [
+          {
+            "duration": 9.092742426,
+            "location": "coop.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1699623743,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create a new quote",
+        "description": "",
+        "id": "to-test-the-feature-in-co-op-money;create-a-new-quote",
+        "after": [
+          {
+            "result": {
+              "duration": 1001383262,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3306850293,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Coop money home page",
+            "match": {
+              "location": "NewSteps.i_am_in_Coop_money_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9092742426,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Quotes link",
+            "match": {
+              "location": "NewSteps.i_click_Quotes_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53236201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be in Quotes home page",
+            "match": {
+              "location": "NewSteps.i_should_be_in_Quotes_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the feature in Co-op money",
+    "description": "",
+    "id": "to-test-the-feature-in-co-op-money",
+    "keyword": "Feature",
+    "uri": "coop.feature"
+  }
+]
